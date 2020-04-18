@@ -46,29 +46,6 @@ sudo apt install -y sl
 #pipのインストール
 sudo apt install -y python3-pip
 
-#OpenCV3.2.4.16+contribのインストール
-pip3 install opencv-python==3.4.2.16
-pip3 install opencv-contrib-python==3.4.2.16
-
-#PythonのライブラリRequestsのインストール
-pip3 install requests
-
-#Pythonのライブラリbeautifulsoup4のインストール
-pip3 install beautifulsoup4
-
-#Pythonのライブラリgmpyのインストール
-sudo apt install -y python-dev libgmp3-dev
-pip3 install gmpy
-
-#Pythonのライブラリsympyのインストール
-pip3 install sympy
-
-#Pythonのライブラリmatplotlibのインストール
-pip3 install matplotlib
-
-#Pythonのライブラリseleniumのインストール
-pip3 install selenium
-
 #Jupyter Notebook系のインストール(python3のみ)
 pip3 install pandas
 pip3 install sklearn
@@ -87,9 +64,6 @@ sudo apt install -y tesseract-ocr
 sudo apt install -y libtesseract-dev
 sudo apt install -y tesseract-ocr-jpn  tesseract-ocr-jpn-vert
 sudo apt install -y tesseract-ocr-script-jpan tesseract-ocr-script-jpan-vert
-
-#pytesseractのインストール
-pip3 install pytesseract
 
 #neofetchのインストール
 sudo apt install -y neofetch
