@@ -115,7 +115,7 @@ sudo mv chromedriver /usr/local/bin/
 rm chromedriver_linux64.zip
 
 #Arduino IDE 1.8.9
-cd ~/ダウンロード
+cd ~/Downloads
 wget https://www.arduino.cc/download_handler.php?f=/arduino-1.8.9-linux64.tar.xz
 tar Jxvf arduino-1.8.9-linux64.tar.xz
 sudo mv arduino-1.8.9 /opt/
@@ -123,7 +123,7 @@ cd /opt/arduino-1.8.9/
 sudo ./install.sh
 
 #Teensyduino
-cd ~/ダウンロード
+cd ~/Downloads
 wget http://www.pjrc.com/teensy/49-teensy.rules
 sudo mv 49-teensy.rules /etc/udev/rules.d
 wget https://www.pjrc.com/teensy/td_147/TeensyduinoInstall.linux64
