@@ -13,6 +13,10 @@ git config --global user.name Haruka0522
 git config --global user.email harukapc1@gmail.com
 git config --global color.ui "auto"
 
+#bashからzshに変更
+sudo apt install zsh
+chsh
+
 #Vim
 sudo apt update
 sudo apt install vim-gtk
@@ -158,10 +162,6 @@ unzip protoc-3.11.3-linux-x86_64.zip
 sudo mv bin/* /usr/local/bin/
 sudo mv include/* /usr/local/include/
 rm -rf protoc-3.11.3-linux-x86_64.zip bin include
-
-#bashからzshに変更
-sudo apt install zsh
-chsh
 
 #GNOME Shellの時刻表示の設定
 gsettings set org.gnome.desktop.interface clock-show-date true
