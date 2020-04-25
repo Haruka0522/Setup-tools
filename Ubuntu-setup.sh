@@ -19,8 +19,7 @@ which zsh
 chsh
 
 #Vim
-sudo apt update
-sudo apt install -y vim-gtk
+sudo apt update sudo apt install -y vim-gtk
 wget https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh
 mkdir ./.vim/
 chmod +x ./installer.sh
@@ -195,6 +194,11 @@ cd dotfile
 chmod +x ./setup.sh
 ./setup.sh
 cd ~
+
+#OBS studioのインストール
+sudo add-apt-repository ppa:kirillshkrogalev/ffmpeg-next
+sudo apt update
+sudo apt install obs-studio
 
 #自分でやることを表示
 echo "Tweaksからテーマのアプリケーション、カーソル、アイコンを選択してね"
