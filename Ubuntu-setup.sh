@@ -187,6 +187,9 @@ sudo chmod +x /usr/local/bin/docker-compose
 #Herokuのインストール
 wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
 
+#tmuxのインストール
+sudo apt install -y tmux
+
 #dotfileの設定
 cd ~
 git clone https://github.com/Haruka0522/dotfiles/
