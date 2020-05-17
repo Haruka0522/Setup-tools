@@ -197,6 +197,13 @@ sudo ./configure --prefix=/usr/local
 sudo make
 sudo make install
 
+#ペイン分割スクリプトを作成
+sudo echo "#!/bin/zsh
+tmux split-window -v -p 30
+tmux split-window -h -p 66
+tmux split-window -h -p 50" > /usr/local/bin/ide
+sudo chmod +x /usr/local/bin/ide
+
 #dotfileの設定
 cd ~
 git clone https://github.com/Haruka0522/dotfiles/
