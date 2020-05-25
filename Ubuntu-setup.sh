@@ -217,6 +217,9 @@ sudo add-apt-repository ppa:kirillshkrogalev/ffmpeg-next
 sudo apt update
 sudo apt install obs-studio
 
+#treeのインストール
+sudo apt install tree
+
 #自分でやることを表示
 echo "Tweaksからテーマのアプリケーション、カーソル、アイコンを選択してね"
 echo "ターミナルにの色や透過度を設定してね"
