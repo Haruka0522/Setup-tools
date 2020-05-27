@@ -220,6 +220,11 @@ sudo apt install obs-studio
 #treeのインストール
 sudo apt install tree
 
+#simplescreenrecorderのインストール
+sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
+sudo apt update
+sudo apt install -y simplescreenrecorder
+
 #自分でやることを表示
 echo "Tweaksからテーマのアプリケーション、カーソル、アイコンを選択してね"
 echo "ターミナルにの色や透過度を設定してね"
