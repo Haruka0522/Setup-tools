@@ -204,6 +204,17 @@ tmux split-window -h -p 66
 tmux split-window -h -p 50" > /usr/local/bin/ide
 sudo chmod +x /usr/local/bin/ide
 
+#PC情報一覧スクリプトを作成
+sudo echo "#!/bin/zsh
+tmux split-window -h -p 50
+tmux split-window -v -p 50
+tmux split-window -h -p 20
+tmux send-key -t 1 C-z "neofetch" Enter
+tmux send-key -t 2 C-z "nvidia-smi -l" Enter
+tmux send-key -t 3 C-z "watch -n 1 sensors" Enter
+tmux send-key -t 0 C-z "gtop" Enter" > /usr/local/bin/pcinfo
+sudo chmod +x /usr/local/bin/pcinfo
+
 #dotfileの設定
 cd ~
 git clone https://github.com/Haruka0522/dotfiles/
