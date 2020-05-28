@@ -249,3 +249,4 @@ echo "https://karaas.hatenablog.jp/entry/2018/11/29/141733を参考にOnedrive�
 echo "sudo visudoを実行して Defaults        badpass_message="あんたに権限をあげるわけないでしょ！このバカっ"を追記してね"
 echo "Slack,Skypeのdebファイルをダウンロードしてきてインストールしてね"
 echo "ロック画面の背景画像を変更してね"
+echo "Android Studioをインストールしてね"
