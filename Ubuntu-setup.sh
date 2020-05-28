@@ -241,6 +241,9 @@ wget https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_
 tar xf flutter_linux_1.17.1-stable.tar.xz
 rm flutter_linux_1.17.1-stable.tar.xz
 
+#kvmのインストール
+sudo apt install -y qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
+
 #自分でやることを表示
 echo "Tweaksからテーマのアプリケーション、カーソル、アイコンを選択してね"
 echo "ターミナルにの色や透過度を設定してね"
