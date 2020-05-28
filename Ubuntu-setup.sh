@@ -236,6 +236,11 @@ sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
 sudo apt update
 sudo apt install -y simplescreenrecorder
 
+#flutterの環境構築
+wget https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_1.17.1-stable.tar.xz
+tar xf flutter_linux_1.17.1-stable.tar.xz
+rm flutter_linux_1.17.1-stable.tar.xz
+
 #自分でやることを表示
 echo "Tweaksからテーマのアプリケーション、カーソル、アイコンを選択してね"
 echo "ターミナルにの色や透過度を設定してね"
