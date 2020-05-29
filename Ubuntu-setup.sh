@@ -69,7 +69,7 @@ sudo apt install -y papirus-icon-theme
 sudo add-apt-repository ppa:snwh/pulp
 sudo apt update
 sudo apt install -y paper-cursor-theme
-sudo apt install gnome-tweaks
+sudo apt install -y gnome-tweaks
 
 #Google Chrome
 sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
@@ -106,7 +106,7 @@ sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
 sudo apt install -y apt-transport-https
 sudo apt update
-sudo apt install code
+sudo apt install -y code
 
 #pyenvのインストール
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
@@ -188,7 +188,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
 
 #tmuxのインストール
-sudo apt install automake libevent-dev bison byacc
+sudo apt install -y automake libevent-dev bison byacc
 sudo mkdir /usr/local/src/tmux
 sudo git clone https://github.com/tmux/tmux /usr/local/src
 sudo chmod +x autogen.sh
@@ -226,10 +226,10 @@ cd ~
 #OBS studioのインストール
 sudo add-apt-repository ppa:kirillshkrogalev/ffmpeg-next
 sudo apt update
-sudo apt install obs-studio
+sudo apt install -y obs-studio
 
 #treeのインストール
-sudo apt install tree
+sudo apt install -y tree
 
 #simplescreenrecorderのインストール
 sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
