@@ -20,3 +20,9 @@ git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 
 # tmuxのインストール
 brew install tmux
+
+# npmのインストール
+brew install npm
+
+# pureプロンプトのインストール
+sudo npm install --global pure-prompt --allow-root --unsafe-perm=true
