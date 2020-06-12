@@ -190,7 +190,7 @@ wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
 #tmuxのインストール
 sudo apt install -y automake libevent-dev bison byacc
 sudo mkdir /usr/local/src/tmux
-sudo git clone https://github.com/tmux/tmux /usr/local/src
+sudo git clone https://github.com/tmux/tmux /usr/local/src/tmux
 sudo chmod +x autogen.sh
 sudo ./autogen.sh
 sudo ./configure --prefix=/usr/local
