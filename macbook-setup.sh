@@ -4,3 +4,6 @@ git config --global color.ui "auto"
 
 # Homebrewのインストール
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# wgetのインストール
+brew install wget
