@@ -7,3 +7,10 @@ git config --global color.ui "auto"
 
 # wgetのインストール
 brew install wget
+
+# vimのインストール
+brew install vim
+wget https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh
+mkdir ./.vim/
+chmod +x ./installer.sh
+./installer.sh ~/.vim/
