@@ -14,3 +14,6 @@ wget https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh
 mkdir ./.vim/
 chmod +x ./installer.sh
 ./installer.sh ~/.vim/
+
+# pyenvのインストール
+git clone https://github.com/pyenv/pyenv.git ~/.pyenv
