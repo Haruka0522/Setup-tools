@@ -17,3 +17,6 @@ chmod +x ./installer.sh
 
 # pyenvのインストール
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+
+# tmuxのインストール
+brew install tmux
