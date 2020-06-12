@@ -79,7 +79,7 @@ sudo apt install -y google-chrome-stable
 
 #ChromeDriverのインストール
 cd /tmp/
-curl -O https://chromedriver.storage.googleapis.com/80.0.3987.106/chromedriver_linux64.zip
+curl -O https://chromedriver.storage.googleapis.com/83.0.4103.39/chromedriver_linux64.zip
 unzip chromedriver_linux64.zip
 sudo mv chromedriver /usr/local/bin/
 rm chromedriver_linux64.zip
