@@ -30,3 +30,6 @@ sudo npm install --global pure-prompt --allow-root --unsafe-perm=true
 # lsカラーリングの設定
 brew install coreutils
 echo "export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"" >> ~/.zshrc
+
+# ffmpegのインストール
+brew install ffmpeg
