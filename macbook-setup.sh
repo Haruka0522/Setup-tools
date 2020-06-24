@@ -33,3 +33,6 @@ echo "export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"" >> ~/.zshrc
 
 # ffmpegのインストール
 brew install ffmpeg
+
+# neofetchのインストール
+brew install neofetch
