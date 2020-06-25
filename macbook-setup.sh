@@ -36,3 +36,10 @@ brew install ffmpeg
 
 # neofetchのインストール
 brew install neofetch
+
+# ペイン分割スクリプトを作成 
+sudo echo "#!/bin/zsh
+tmux split-window -v -p 30
+tmux split-window -h -p 66
+tmux split-window -h -p 50" > /usr/local/bin/ide
+sudo chmod +x /usr/local/bin/ide
