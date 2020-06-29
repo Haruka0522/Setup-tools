@@ -31,3 +31,18 @@ sudo make install
 cd ~
 git config --global user.email harukapc1@gmail.com
 git config --global user.name Haruka0522
+
+# DeepStreamSDKのインストール
+sudo apt install -y\
+libssl1.0.0 \
+libgstreamer1.0-0 \
+gstreamer1.0-tools \
+gstreamer1.0-plugins-good \
+gstreamer1.0-plugins-bad \
+gstreamer1.0-plugins-ugly \
+gstreamer1.0-libav \
+libgstrtspserver-1.0-0 \
+libjansson4=2.11-1
+sudo apt install -y librdkafka1=0.11.3-1build1
+echo "https://developer.nvidia.com/deepstream-getting-started から.debパッケージをダウンロードして実行する"
+
