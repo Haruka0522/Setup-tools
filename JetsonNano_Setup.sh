@@ -46,3 +46,5 @@ libjansson4=2.11-1
 sudo apt install -y librdkafka1=0.11.3-1build1
 echo "https://developer.nvidia.com/deepstream-getting-started から.debパッケージをダウンロードして実行する"
 
+#path
+echo "export PATH=${PATH}:/usr/local/cuda/bin" >> ~/.bashrc
