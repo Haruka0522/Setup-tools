@@ -244,6 +244,10 @@ rm flutter_linux_1.17.1-stable.tar.xz
 #kvmのインストール
 sudo apt install -y qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
 
+#capslockとctrlの入れ替え
+sudo chmod a+w /etc/default/keyboard
+echo 'XKBOPTIONS="ctrl:nocaps"' >> /etc/default/keyboard
+
 #自分でやることを表示
 echo "Tweaksからテーマのアプリケーション、カーソル、アイコンを選択してね"
 echo "ターミナルにの色や透過度を設定してね"
