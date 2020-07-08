@@ -43,3 +43,6 @@ tmux split-window -v -p 30
 tmux split-window -h -p 66
 tmux split-window -h -p 50" > /usr/local/bin/ide
 sudo chmod +x /usr/local/bin/ide
+
+# Docker Desktop for Macの導入
+wget -P ~/Downloads https://download.docker.com/mac/stable/Docker.dmg
