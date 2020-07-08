@@ -46,3 +46,7 @@ sudo chmod +x /usr/local/bin/ide
 
 # Docker Desktop for Macの導入
 wget -P ~/Downloads https://download.docker.com/mac/stable/Docker.dmg
+
+# MongoDB
+brew tap mondodb/brew
+brew install mongodb-community
