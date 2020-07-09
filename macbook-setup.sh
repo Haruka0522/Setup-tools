@@ -50,3 +50,6 @@ wget -P ~/Downloads https://download.docker.com/mac/stable/Docker.dmg
 # MongoDB
 brew tap mondodb/brew
 brew install mongodb-community
+
+# MySQL
+brew install mysql
