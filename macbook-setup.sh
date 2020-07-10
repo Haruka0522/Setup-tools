@@ -53,3 +53,6 @@ brew install mongodb-community
 
 # MySQL
 brew install mysql
+
+# cmake
+brew install cmake
