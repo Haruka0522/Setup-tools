@@ -248,16 +248,6 @@ sudo apt install -y qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
 sudo chmod a+w /etc/default/keyboard
 echo 'XKBOPTIONS="ctrl:nocaps"' >> /etc/default/keyboard
 
-#OpenMVG
-sudo apt install -y libpng-dev libjpeg-dev libtiff-dev libxxf86vm1 libxxf86vm-dev libxi-dev libxrandr-dev cmake
-git clone --recursive https://github.com/openMVG/openMVG.git
-cd openMVG
-cd ..
-mkdir openMVG_Build
-cd openMVG_Build
-cmake -DCMAKE_BUILD_TYPE=RELEASE . ../openMVG/src/
-make -j4
-
 #MeshLab
 sudo apt install -y meshlab
 
