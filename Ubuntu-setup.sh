@@ -258,6 +258,9 @@ cd openMVG_Build
 cmake -DCMAKE_BUILD_TYPE=RELEASE . ../openMVG/src/
 make -j4
 
+#MeshLab
+sudo apt install -y meshlab
+
 #自分でやることを表示
 echo "Tweaksからテーマのアプリケーション、カーソル、アイコンを選択してね"
 echo "ターミナルにの色や透過度を設定してね"
