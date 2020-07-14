@@ -7,3 +7,7 @@ mkdir openMVG_Build
 cd openMVG_Build
 cmake -DCMAKE_BUILD_TYPE=RELEASE . ../openMVG/src/
 make -j4
+
+# Qtを含めてビルドしたいときはQtをaptではなく公式のインストーラーで入れて
+# cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_PREFIX_PATH=~/Qt/5.15.0/gcc_64 . ../openMVG/src
+# を実行する
