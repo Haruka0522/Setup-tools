@@ -251,6 +251,9 @@ echo 'XKBOPTIONS="ctrl:nocaps"' >> /etc/default/keyboard
 #MeshLab
 sudo apt install -y meshlab
 
+#clang-formatのインストール
+sudo apt install -y clang-format
+
 #自分でやることを表示
 echo "Tweaksからテーマのアプリケーション、カーソル、アイコンを選択してね"
 echo "ターミナルにの色や透過度を設定してね"
