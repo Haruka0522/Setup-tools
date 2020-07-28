@@ -56,3 +56,7 @@ brew install mysql
 
 # cmake
 brew install cmake
+
+# OpenCV4
+brew install opencv
+brew install pkg-config
