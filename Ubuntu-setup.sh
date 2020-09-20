@@ -260,6 +260,11 @@ echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable ma
 sudo apt update
 sudo apt install brave-browser
 
+#unetbootin
+sudo add-apt-repository ppa:gezakovacs/ppa
+sudo apt update
+sudo apt -y install unetbootin
+
 #自分でやることを表示
 echo "Tweaksからテーマのアプリケーション、カーソル、アイコンを選択してね"
 echo "ターミナルにの色や透過度を設定してね"
