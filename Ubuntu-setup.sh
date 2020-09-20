@@ -65,9 +65,6 @@ sudo apt install -y materia-gtk-theme
 sudo add-apt-repository ppa:papirus/papirus
 sudo apt update
 sudo apt install -y papirus-icon-theme
-sudo add-apt-repository ppa:snwh/pulp
-sudo apt update
-sudo apt install -y paper-cursor-theme
 sudo apt install -y gnome-tweaks
 
 #Google Chrome
