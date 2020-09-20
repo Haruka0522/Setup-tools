@@ -1,6 +1,9 @@
 #!/bin/sh
 sudo apt update
 
+#いろいろ
+sudo apt install git gcc make openssl libssl-dev libbz2-dev libreadline-dev libsqlite3-dev zlib1g-dev
+
 #curlのインストール
 sudo apt install -y curl
 
