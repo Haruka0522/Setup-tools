@@ -21,12 +21,8 @@ sudo apt install -y zsh
 which zsh
 chsh
 
-#Vim
-sudo apt update sudo apt install -y vim-gtk
-wget https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh
-mkdir ./.vim/
-chmod +x ./installer.sh
-./installer.sh ~/.vim/
+#neovim
+sudo apt install neovim
 
 #pythonのコードチェックツール
 pip3 install -y flake8
