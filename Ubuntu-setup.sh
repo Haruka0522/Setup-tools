@@ -265,6 +265,9 @@ sudo add-apt-repository ppa:gezakovacs/ppa
 sudo apt update
 sudo apt -y install unetbootin
 
+#gparted
+sudo apt -y install gparted
+
 #自分でやることを表示
 echo "Tweaksからテーマのアプリケーション、カーソル、アイコンを選択してね"
 echo "ターミナルにの色や透過度を設定してね"
