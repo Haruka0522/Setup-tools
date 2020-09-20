@@ -15,6 +15,7 @@ sudo apt install -y git
 git config --global user.name Haruka0522
 git config --global user.email harukapc1@gmail.com
 git config --global color.ui "auto"
+git config --global url.git@github.com:.insteadOf https://github.com/
 
 #bashからzshに変更
 sudo apt install -y zsh
