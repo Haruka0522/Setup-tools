@@ -274,6 +274,9 @@ sudo apt -y install swig
 sudo apt -y install libmecab-dev
 sudo apt -y install mecab-ipadic-utf8
 
+#GIMP
+sudo apt -y install gimp
+
 #自分でやることを表示
 echo "Tweaksからテーマのアプリケーション、カーソル、アイコンを選択してね"
 echo "ターミナルにの色や透過度を設定してね"
