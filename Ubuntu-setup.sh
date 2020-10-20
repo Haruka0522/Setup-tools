@@ -281,6 +281,12 @@ sudo apt -y install gimp
 curl https://sh.rustup.rs -sSf | sh
 sudo apt -y install lldb
 
+#R
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/'
+sudo apt update
+sudo apt -y install r-base
+
 #自分でやることを表示
 echo "Tweaksからテーマのアプリケーション、カーソル、アイコンを選択してね"
 echo "ターミナルにの色や透過度を設定してね"
