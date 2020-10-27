@@ -287,6 +287,12 @@ sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-
 sudo apt update
 sudo apt -y install r-base
 
+#Haskell
+sudo apt -y install haskell-platform
+curl -sSL https://get.haskellstack.org/ | sh
+echo 'export PATH="$PATH:~/.local/bin/stack"' >> ~/.zshrc
+
+
 #自分でやることを表示
 echo "Tweaksからテーマのアプリケーション、カーソル、アイコンを選択してね"
 echo "ターミナルにの色や透過度を設定してね"
