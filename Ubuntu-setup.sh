@@ -292,6 +292,9 @@ sudo apt -y install haskell-platform
 curl -sSL https://get.haskellstack.org/ | sh
 echo 'export PATH="$PATH:~/.local/bin/stack"' >> ~/.zshrc
 
+#netdiscover
+sudo apt -y install netdiscover
+
 
 #自分でやることを表示
 echo "Tweaksからテーマのアプリケーション、カーソル、アイコンを選択してね"
