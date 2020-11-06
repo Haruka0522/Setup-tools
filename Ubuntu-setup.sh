@@ -298,6 +298,14 @@ sudo apt -y install netdiscover
 #clipboardを使いやすくするやつ
 sudo apt -y xsel
 
+#neovim用python3環境構築
+pyenv install 3.7.8
+pyenv virtualenv 3.7.8 nvim-python3
+pyenv activate nvim-python3
+pip install --upgrade pip
+pip install neovim
+pyenv deactivate
+
 
 #自分でやることを表示
 echo "Tweaksからテーマのアプリケーション、カーソル、アイコンを選択してね"
