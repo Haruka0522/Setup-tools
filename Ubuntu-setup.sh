@@ -295,6 +295,9 @@ echo 'export PATH="$PATH:~/.local/bin/stack"' >> ~/.zshrc
 #netdiscover
 sudo apt -y install netdiscover
 
+#clipboardを使いやすくするやつ
+sudo apt -y xsel
+
 
 #自分でやることを表示
 echo "Tweaksからテーマのアプリケーション、カーソル、アイコンを選択してね"
