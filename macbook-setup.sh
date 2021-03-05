@@ -63,3 +63,7 @@ brew install pkg-config
 
 # exa
 brew install exa
+
+# nerd font
+brew tap homebrew/cask-fonts
+brew install font-hack-nerd-font
