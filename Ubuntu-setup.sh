@@ -298,6 +298,9 @@ sudo apt -y install netdiscover
 #clipboardを使いやすくするやつ
 sudo apt -y xsel
 
+#exa
+cargo install exa
+
 #neovim用python3環境構築
 pyenv install 3.7.8
 pyenv virtualenv 3.7.8 nvim-python3
