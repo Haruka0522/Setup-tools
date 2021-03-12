@@ -301,6 +301,10 @@ sudo apt -y xsel
 #exa
 cargo install exa
 
+#Nerd Font
+mkdir -p ~/.local/share/fonts
+cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
+
 #neovim用python3環境構築
 pyenv install 3.7.8
 pyenv virtualenv 3.7.8 nvim-python3
