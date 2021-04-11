@@ -316,6 +316,9 @@ pip install --upgrade pip
 pip install neovim
 pyenv deactivate
 
+#Java
+sudo apt -y install openjdk-8-jdk
+
 
 #自分でやることを表示
 echo "Tweaksからテーマのアプリケーション、カーソル、アイコンを選択してね"
