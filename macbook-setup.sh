@@ -67,3 +67,10 @@ brew install exa
 # nerd font
 brew tap homebrew/cask-fonts
 brew install font-hack-nerd-font
+
+
+# git-delta
+brew install git-delta
+
+# fig.io
+brew install fig.io
