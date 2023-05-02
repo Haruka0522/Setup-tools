@@ -293,7 +293,7 @@ echo 'export PATH="$PATH:~/.local/bin/stack"' >> ~/.zshrc
 sudo apt -y install netdiscover
 
 #clipboardを使いやすくするやつ
-sudo apt -y xsel
+sudo apt -y install xsel
 
 #exa
 cargo install exa
