@@ -132,14 +132,15 @@ gsettings set org.gnome.desktop.interface clock-show-seconds true
 #Wiresharkのインストール
 sudo apt install -y wireshark
 
-#GTOPのインストール
-curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-sudo apt update
-sudo apt install -y nodejs yarn build-essential
+# install node
+sudo apt install -y nodejs
 sudo apt install -y npm
-sudo npm install gtop -g
+
+#GTOPのインストール
+#sudo apt update
+#sudo apt install -y nodejs yarn build-essential
+#sudo apt install -y npm
+#sudo npm install gtop -g
 
 #IPAフォントのインストール
 sudo apt install -y fonts-ipafont fonts-ipaexfont
