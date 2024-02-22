@@ -51,11 +51,12 @@ brew install neofetch
 #brew install mysql
 
 # cmake
-#brew install cmake
+brew install cmake
 
 # OpenCV4
-#brew install opencv
-#brew install pkg-config
+brew install opencv
+brew install pkg-config
+brew install python-setuptools
 
 # Rust
 brew install rustup-init
@@ -73,6 +74,9 @@ brew install git-delta
 
 # fig.io
 brew install --cask fig
+
+# cocopad
+brew install cocoapods
 
 
 ## その他
